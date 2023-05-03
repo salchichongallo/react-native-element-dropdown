@@ -22,6 +22,7 @@ export interface DropdownProps<T> {
   itemTestIDField?: string;
   style?: StyleProp<ViewStyle>;
   containerStyle?: StyleProp<ViewStyle>;
+  dropdownStyle?: StyleProp<ViewStyle>;
   placeholderStyle?: StyleProp<TextStyle>;
   selectedTextStyle?: StyleProp<TextStyle>;
   selectedTextProps?: TextProps;
